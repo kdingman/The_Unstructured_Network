@@ -1,0 +1,23 @@
+{
+  "name": "the_unstructured_network",
+  "version": "1.0.0",
+  "description": "A Social Network experience that can handle large amounts of unstructured data.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdingman/The_Unstructured_Network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdingman/The_Unstructured_Network/issues"
+  },
+  "homepage": "https://github.com/kdingman/The_Unstructured_Network#readme",
+  "dependencies": {
+    "mongoose": "^6.2.10"
+  }
+}
