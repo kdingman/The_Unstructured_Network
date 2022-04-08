@@ -23,10 +23,14 @@ router
     .put(updateThought)
     .delete(deleteThought);
 
-// Set up ADD and DELETE Reactions
+// Set up ADD Reactions
 router
-    .route('/:thoughtId/reactions/:reactionsId')
+    .route('/:thoughtId/reactions/')
     .post(addReaction)
+
+// Set up DELETE Reactions
+router
+    .route.route('/:thoughtId/reactions/:reactionsId')
     .delete(removeReaction);
 
 module.exports = router;
