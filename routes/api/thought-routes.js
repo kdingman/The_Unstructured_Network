@@ -30,7 +30,7 @@ router
 
 // Set up DELETE Reactions
 router
-    .route.route('/:thoughtId/reactions/:reactionsId')
+    .route('/:thoughtId/reactions/:reactionsId')
     .delete(removeReaction);
 
 module.exports = router;
