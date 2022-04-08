@@ -17,7 +17,6 @@ const ReactionSchema = new Schema(
         username: {
             type: String,
             required: 'Please Enter a Username',
-            unique: true
         },
         createdAt: {
             type: Date,
@@ -28,7 +27,8 @@ const ReactionSchema = new Schema(
     {
         toJSON: {
             getters: true
-        }
+        },
+        id: false
     }
 );
 
@@ -50,7 +50,6 @@ const ThoughtSchema = new Schema(
         username: {
             type: String,
             required: 'Please Enter a Username',
-            unique: true
         },
         // use ReactionSchema to validate data for a reaction
         reactions: [ReactionSchema]
