@@ -16,7 +16,7 @@ router
     .get(getAllUsers)
     .post(createUser);
 
-// Set up GET by ID, ADD and DELETE at /api/users/:id
+// Set up GET by ID, UPDATE and DELETE at /api/users/:id
 router
     .route('/:id')
     .get(getUserById)
