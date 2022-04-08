@@ -44,7 +44,7 @@ Built with `Express`, `Mongoose` and `MongoDB`.
     - DELETE Reaction: `DELETE /api/thoughts/:id/reactions/:id`   
     
  ## **Demonstration Video**
- Click here to view [The Unstructured Netowrk](https://drive.google.com/file/d/1IlZ3Cxf2ZNuP4prmptqKZltzc6jar6yn/view) demonstration video.    
+ Click here to view [The Unstructured Network](https://drive.google.com/file/d/1IlZ3Cxf2ZNuP4prmptqKZltzc6jar6yn/view) demonstration video.    
  
  ### **Contact**
  Please feel free to reach out with any questions or comments.    
